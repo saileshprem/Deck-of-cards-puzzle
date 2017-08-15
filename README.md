@@ -12,3 +12,9 @@ You are given a deck containing N cards. While holding the deck:
 4. Pick up the deck from the table and repeat steps 1-3 until the deck is in the original order.
 
 Write a program to determine how many rounds it will take to put a deck back into the original order. It should take a number of cards in the deck as a command line argument and write the result to stdout.
+
+The code is compiled as:
+g++ CardsFinal.cpp -o CardsFinal -std=c++11
+
+And executed as:
+./CardsFinal 52
